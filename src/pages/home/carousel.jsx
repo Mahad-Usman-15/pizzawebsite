@@ -10,9 +10,7 @@ const Carousel = () => {
     hero2,
     hero3,
   ],[])
-
   const [slideIndex, setSlideIndex] = useState(0);
-
   const nextSlide =useCallback(() => {
     setSlideIndex((prev) => (prev + 1) % slides.length);
   },[slides.length]) 
