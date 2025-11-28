@@ -28,7 +28,7 @@ const Home = () => {
 
             <div className='container mx-auto'>
 
-                <CustomCountdown targetDate={"2025-0-10T00:00:00"} />
+                <CustomCountdown targetDate={"2025-12-10T00:00:00"} />
                 <Search />
                 <Bar category={'Hungry Hustle Deal'} id={'hungry-hustle'} />
                 <ProductListing category={'Hungry Hustle Deal'} />
