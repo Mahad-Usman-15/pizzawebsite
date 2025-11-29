@@ -125,6 +125,14 @@ const Footer = () => {
               Terms of Service
             </Link>
           </li>
+              <li>
+            <Link
+              to={'/faqs'}
+              className="text-slate-300 hover:text-white text-base"
+            >
+              Faqs
+            </Link>
+          </li>
           <li>
             <Link
               to={'/privacy'}
