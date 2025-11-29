@@ -73,7 +73,7 @@ export default function Checkout() {
         paymentMethod: formValues.paymentMethod || 'cash_on_delivery',
       }
 
-      const response = await fetch('http://localhost:5000/api/order', {
+      const response = await fetch('https://pizzabackend-omega.vercel.app/api/order', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

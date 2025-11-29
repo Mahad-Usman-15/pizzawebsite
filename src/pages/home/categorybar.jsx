@@ -6,7 +6,7 @@ const Categorybar = () => {
   useEffect(()=>{
 const fetchcategories=async ()=>{
   try{
-  const response = await axios.get("http://localhost:5000/api/categories",{
+  const response = await axios.get("https://pizzabackend-omega.vercel.app/api/categories",{
  method:"GET",
  headers:{
   "Content-Type":"application/json",
