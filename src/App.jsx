@@ -16,6 +16,7 @@ import Panel from './pages/admin/panel/page'
 import Location from './components/locationmodal'
 import Protectedroute from './components/Protectedroute'
 import Success from './pages/order/success'
+import NotFound from './components/404'
 function App() {
   const [isloading, setisloading] = useState(true)
 
@@ -40,6 +41,7 @@ function App() {
             <Route element={<Terms />} path='/terms'></Route>
             <Route element={<Checkout />} path='/checkout'></Route>
             <Route element={<Login />} path='/admin'></Route>
+            <Route element={<NotFound />} path='*'></Route>
             <Route element={<Success />} path='/order/success/:orderId'></Route>
             <Route
               path="/admin/panel"
