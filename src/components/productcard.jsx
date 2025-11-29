@@ -30,7 +30,7 @@ const Productcard = ({id="", product, name, price, image, description }) => {
         </div>
 
         <div className="p-6">
-          <h3 className="text-lg text-slate-100 font-semibold">{name}</h3>
+          <h3 className="text-md text-slate-100 font-semibold">{name}</h3>
           {id}
           <button type="button" className="flex items-center text-green-600 text-sm font-medium bg-green-50 px-3 py-1.5 tracking-wide rounded-full cursor-pointer">
             Save 20%
