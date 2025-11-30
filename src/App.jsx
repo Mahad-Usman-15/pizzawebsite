@@ -17,10 +17,9 @@ import Location from './components/locationmodal'
 import Protectedroute from './components/Protectedroute'
 import Success from './pages/order/success'
 import NotFound from './components/404'
+
 function App() {
   const [isloading, setisloading] = useState(true)
-
-
   useEffect(() => {
     const timeout = setTimeout(() => {
       setisloading(false)

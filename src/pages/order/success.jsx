@@ -9,7 +9,7 @@ const Success = () => {
     useEffect(() => {
         const fetchOrder = async () => {
             try {
-                const response = await fetch(`http://localhost:5000/api/order/${orderId}`)
+                const response = await fetch(`http://grabpizza.vercel.app/api/order/${orderId}`)
                 const data = await response.json()
                 if (response.ok) {
                     setOrder(data.order)
